@@ -1,0 +1,31 @@
+version: "3.8"
+
+networks:
+  app:
+    driver: bridge
+
+services:
+  postgres:
+    image: postgres:alpine
+    environment:
+      POSTGRES_DB: boilerplate
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    networks:
+      - app
+    ports:
+      - "5432:5432"
+  example:
+    build:
+      context: .
+      dockerfile: build/Dockerfile${CUSTOM}
+    depends_on:
+      - postgres
+    links:
+      - postgres
+    volumes:
+      - .:/app
+    networks:
+      - app
+    ports:
+      - 8080:8080
