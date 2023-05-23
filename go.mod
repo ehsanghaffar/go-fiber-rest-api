@@ -14,7 +14,7 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.7
 	github.com/rs/zerolog v1.29.1
 	go.uber.org/automaxprocs v1.5.1
-	go.uber.org/fx v1.17.1
+	go.uber.org/fx v1.19.3
 )
 
 require (
@@ -49,12 +49,11 @@ require (
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	github.com/zclconf/go-cty v1.10.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
-	go.uber.org/dig v1.14.1 // indirect
+	go.uber.org/dig v1.16.1 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
-	go.uber.org/zap v1.21.0 // indirect
+	go.uber.org/zap v1.23.0 // indirect
 	golang.org/x/crypto v0.7.0 // indirect
 	golang.org/x/mod v0.8.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
