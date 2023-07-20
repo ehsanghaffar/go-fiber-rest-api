@@ -13,7 +13,7 @@ require (
 	github.com/jackc/pgx/v4 v4.18.1
 	github.com/pelletier/go-toml/v2 v2.0.9
 	github.com/rs/zerolog v1.29.1
-	go.uber.org/automaxprocs v1.5.2
+	go.uber.org/automaxprocs v1.5.3
 	go.uber.org/fx v1.20.0
 )
 
