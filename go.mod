@@ -3,7 +3,7 @@ module github.com/efectn/fiber-boilerplate
 go 1.18
 
 require (
-	entgo.io/ent v0.13.0
+	entgo.io/ent v0.13.1
 	github.com/efectn/fx-zerolog v1.1.0
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
@@ -52,7 +52,7 @@ require (
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.23.0 // indirect
 	golang.org/x/crypto v0.19.0 // indirect
-	golang.org/x/mod v0.14.0 // indirect
+	golang.org/x/mod v0.15.0 // indirect
 	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/sys v0.17.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
