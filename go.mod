@@ -8,7 +8,7 @@ require (
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
 	github.com/go-playground/validator/v10 v10.18.0
-	github.com/gofiber/fiber/v2 v2.52.1
+	github.com/gofiber/fiber/v2 v2.52.2
 	github.com/golang/mock v1.6.0
 	github.com/jackc/pgx/v4 v4.18.2
 	github.com/pelletier/go-toml/v2 v2.1.1
