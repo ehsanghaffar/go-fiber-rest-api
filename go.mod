@@ -3,7 +3,7 @@ module github.com/efectn/fiber-boilerplate
 go 1.18
 
 require (
-	entgo.io/ent v0.13.1
+	entgo.io/ent v0.14.0
 	github.com/efectn/fx-zerolog v1.1.0
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
