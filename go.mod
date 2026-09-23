@@ -1,12 +1,12 @@
 module github.com/efectn/fiber-boilerplate
 
-go 1.25.0
+go 1.26
 
 require (
 	entgo.io/ent v0.14.6
 	github.com/efectn/fx-zerolog v1.1.0
 	github.com/go-playground/locales v0.14.1
-	github.com/go-playground/universal-translator v0.18.1
+	github.com/go-playground/universal-translator v0.18.2
 	github.com/go-playground/validator/v10 v10.30.4
 	github.com/gofiber/fiber/v2 v2.52.15
 	github.com/golang/mock v1.6.0
